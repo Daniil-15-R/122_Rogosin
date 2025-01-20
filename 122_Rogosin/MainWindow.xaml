@@ -1,0 +1,26 @@
+﻿<Window x:Class="_122_Rogosin.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:_122_Rogosin"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Image 
+Source="C:\Users\rdiny\OneDrive\Изображения\Screenshots\Task.png" Margin="240,0,240,328"/>
+        <TextBlock Name="TextBlock1" Height="30" Width="200" Text="i" Margin="130,165,470,239">
+        </TextBlock>
+        <TextBlock Name="TextBlock2" Height="30" Width="200" Text="x" Margin="130,234,470,170">
+        </TextBlock>
+        <TextBox Name="TextBox1" Height="30" Margin="493,165,206,239"/>
+        <TextBox Name="TextBox2" Height="30" Margin="493,234,206,170"/>
+        <RadioButton Name="RadioButton1" Height="30" Content="sh(x)" Margin="160,278,570,126"/>
+        <RadioButton Name="RadioButton2" Height="30" Content="x^2" Margin="160,313,570,91"/>
+        <RadioButton Name="RadioButton3" Height="30" Content="e^x" Margin="160,343,570,61"/>
+        <Button Name="Button1" Height="30" Content="Вычислить" Margin="254,285,452,119" Click="Button1_Click"/>
+        <Button Name="Button2" Height="30" Content="Очистить" Margin="254,323,452,81" Click="Button2_Click"/>
+        <TextBlock Name="TextBlock3" Height="30" Text="Ответ:" Margin="110,388,640,16"/>
+        <TextBox Name="TextBox3" Height="30" Margin="161,388,539,16"/>
+    </Grid>
+</Window>
