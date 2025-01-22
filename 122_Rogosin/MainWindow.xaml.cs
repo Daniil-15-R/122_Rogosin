@@ -48,16 +48,21 @@ namespace _122_Rogosin
                     // f(x) = e^x
                     result = Math.Exp(x);
                 }
+                else
+                {
+                    MessageBox.Show("Пожалуйста, выберите функцию.", "Ошибка выбора", MessageBoxButton.OK, MessageBoxImage.Warning);
+                    return;
+                }
 
                 // Определяем e в зависимости от i
-                double resultE; // Изменено имя переменной
+                double resultE;
                 if (i % 2 != 0 && x > 0) // i - нечетное, x > 0
                 {
                     resultE = i * Math.Sqrt(result);
                 }
                 else if (i % 2 == 0 && x < 0) // i - четное, x < 0
                 {
-                    resultE = i / 2 * Math.Sqrt(Math.Abs(result));
+                    resultE = (i / 2) * Math.Sqrt(Math.Abs(result));
                 }
                 else // иначе
                 {
@@ -73,6 +78,7 @@ namespace _122_Rogosin
             }
         }
 
+
         private void Button2_Click(object sender, RoutedEventArgs e)
         {
             // Очищаем все TextBox
@@ -82,6 +88,11 @@ namespace _122_Rogosin
             RadioButton1.IsChecked = false;
             RadioButton2.IsChecked = false;
             RadioButton3.IsChecked = false;
+        }
+
+        private void TextBox3_TextChanged(object sender, TextChangedEventArgs e)
+        {
+
         }
     }
 }

@@ -7,20 +7,17 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <Image 
-Source="C:\Users\rdiny\OneDrive\Изображения\Screenshots\Task.png" Margin="240,0,240,328"/>
-        <TextBlock Name="TextBlock1" Height="30" Width="200" Text="i" Margin="130,165,470,239">
-        </TextBlock>
-        <TextBlock Name="TextBlock2" Height="30" Width="200" Text="x" Margin="130,234,470,170">
-        </TextBlock>
+        <Image Source="C:\Users\rdiny\OneDrive\Изображения\Screenshots\Task.png" Margin="240,0,256,346"/>
+        <TextBlock Name="TextBlock1" Height="30" Text="i" Margin="130,165,640,239"/>
+        <TextBlock Name="TextBlock2" Height="30" Text="x" Margin="130,234,640,170"/>
         <TextBox Name="TextBox1" Height="30" Margin="493,165,206,239"/>
         <TextBox Name="TextBox2" Height="30" Margin="493,234,206,170"/>
-        <RadioButton Name="RadioButton1" Height="30" Content="sh(x)" Margin="160,278,570,126"/>
-        <RadioButton Name="RadioButton2" Height="30" Content="x^2" Margin="160,313,570,91"/>
-        <RadioButton Name="RadioButton3" Height="30" Content="e^x" Margin="160,343,570,61"/>
-        <Button Name="Button1" Height="30" Content="Вычислить" Margin="254,285,452,119" Click="Button1_Click"/>
-        <Button Name="Button2" Height="30" Content="Очистить" Margin="254,323,452,81" Click="Button2_Click"/>
-        <TextBlock Name="TextBlock3" Height="30" Text="Ответ:" Margin="110,388,640,16"/>
-        <TextBox Name="TextBox3" Height="30" Margin="161,388,539,16"/>
+        <RadioButton Name="RadioButton1" Height="30" Content="sh(x)" Margin="125,278,605,126"/>
+        <RadioButton Name="RadioButton2" Height="30" Content="x^2" Margin="125,313,605,91"/>
+        <RadioButton Name="RadioButton3" Height="30" Content="e^x" Margin="125,346,605,58"/>
+        <Button Name="Button1" Height="30" Content="Вычислить" Margin="240,273,466,131" Click="Button1_Click"/>
+        <Button Name="Button2" Height="30" Content="Очистить" Margin="240,338,466,66" Click="Button2_Click"/>
+        <TextBlock Name="TextBlock3" Height="30" Text="Ответ:" Margin="110,396,640,8"/>
+        <TextBox Name="TextBox3" Height="30" Margin="176,394,524,10" TextChanged="TextBox3_TextChanged" IsReadOnly="True"/>
     </Grid>
 </Window>
