@@ -7,7 +7,7 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <Image Source="C:\Users\rdiny\OneDrive\Изображения\Screenshots\Task.png" Margin="240,0,256,346"/>
+        <Image Source="Images\Task.png" Margin="240,0,256,346"/>
         <TextBlock Name="TextBlock1" Height="30" Text="i" Margin="130,165,640,239"/>
         <TextBlock Name="TextBlock2" Height="30" Text="x" Margin="130,234,640,170"/>
         <TextBox Name="TextBox1" Height="30" Margin="493,165,206,239"/>
