@@ -1,0 +1,45 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\rdiny\\source\\repos\\122_Rogosin4\\pr3\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{61323E1C-9862-4D1C-9899-E83FEFCC66C2}|pr3\\pr3.csproj|c:\\users\\rdiny\\source\\repos\\122_rogosin4\\pr3\\pr3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{61323E1C-9862-4D1C-9899-E83FEFCC66C2}|pr3\\pr3.csproj|solutionrelative:pr3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\rdiny\\source\\repos\\122_Rogosin4\\pr3\\pr3\\Program.cs",
+              "RelativeDocumentMoniker": "pr3\\Program.cs",
+              "ToolTip": "C:\\Users\\rdiny\\source\\repos\\122_Rogosin4\\pr3\\pr3\\Program.cs",
+              "RelativeToolTip": "pr3\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-17T10:28:25.482Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
